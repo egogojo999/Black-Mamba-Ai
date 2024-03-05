@@ -49,7 +49,7 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'CLASSIC AI';
+const botname = process.env.BOTNAME || '︵✰𝐸𝐺𝑂༆';
 const antibot = process.env.ANTIBOT || 'FALSE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
@@ -81,10 +81,9 @@ const antibot = process.env.ANTIBOT || 'FALSE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'𝐂𝐥𝐚𝐬𝐬𝐢𝐜-𝐀𝐈';
+    const author = process.env.STICKER_AUTHOR ||'ego';
     const packname = process.env.STICKER_PACKNAME || '𝑪⃪𝒍⃪𝒂⃪𝒔⃪𝒔⃪𝒊⃪𝒄⃪';
-const dev = process.env.DEV || '254742491666'
-
+const dev = process.env.DEV || '254700133619'
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
@@ -385,7 +384,7 @@ case "help":
 
 let cap = `╭════〘 ☬ 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐀𝐈 ☬ 〙═⊷⏣
 ┃✠╭──────────────┉◕
-┃✠│ 𝗢𝘄𝗻𝗲𝗿 :𝕶⃟ 𝖎⃟ 𝖓⃟ 𝖌⃟ 
+┃✠│ 𝗢𝘄𝗻𝗲𝗿 :︵✰𝐸𝐺𝑂༆
 ┃✠│ 𝗨𝘀𝗲𝗿 : ${m.pushName}︎︎
 ┃✠│ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 :${runtime(process.uptime())}
 ┃✠│ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝐋𝐢𝐧𝐮𝐱
@@ -516,7 +515,7 @@ let cap = `╭════〘 ☬ 𝐂𝐋𝐀𝐒𝐒𝐈𝐂 𝐀𝐈 ☬ 〙�
 ┃✠│${prefix}𝐑𝐞𝐯𝐨𝐤𝐞.
 ┃✠│
 ┃✜╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅⏣
-┃➠    ▒▓☫ 𝐌𝐚𝐝𝐞 𝐁𝐲 𝕶⃟ 𝖎⃟ 𝖓⃟ 𝖌⃟  ☫▓▒ 
+┃➠    ▒▓☫ 𝐌𝐚𝐝𝐞 𝐁𝐲 ︵✰𝐸𝐺𝑂༆☫▓▒ 
 ╰════════════════⊷⏣`;
 
 if (menu === 'VIDEO') {
@@ -1175,7 +1174,7 @@ try {
  if (users  == client.decodeJid(client.user.id)) throw 'Bot cannot remove itself 😡';
  if (users == Owner) { m.reply('Its owner number')}; 
                  await client.groupParticipantsUpdate(m.chat, users, 'remove'); 
-await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐲 𝐂𝐥𝐚𝐬𝐬𝐢𝐜☬'); 
+await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐛𝐲 ︵✰𝐸𝐺𝑂༆☬'); 
 } catch (errr) { 
  await reply("𝐇𝐮𝐡!\n 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧 𝐡𝐞𝐫𝐞\n 𝐖𝐡𝐲'𝐫𝐞 𝐲𝐨𝐮 𝐭𝐡𝐢𝐧𝐤𝐢𝐧𝐠 𝐨𝐛𝐭𝐮𝐬𝐞𝐥𝐲?☬")}
 
